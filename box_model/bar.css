@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+p {
+    font: Verdana, Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2 {
+    color: #007e7e;
+}
+
+.p1 {
+    font: "";
+}
+
+h1 {
+    color: #007e7e;
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+.garantia {
+    line-height: 1.9;
+    font-style: italic;
+    font: Georgia, "Times New Roman", Times, serif;
+    font-style: #444444;
+    border-style: white;
+    border: 1px dashed;
+    background-color: #a7cece;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 250px;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula validacao Formulario</title>
+</head>
+
+<body>
+    <nav>
+        <a href="/cx_de_txt.html">Caixa de texto</a>
+        </br>
+        <a href="/tabela.html">Tabela</a>
+    </nav>
+
+    <article>
+        <header>
+            <h1>Boa noite</h1>
+            <p>Lorem Ipsum dolor set amet</p>
+        </header>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
+            browser today!</p>
+    </article>
+    <section>
+        Brasil
+    </section>
+
+    <input type="button" value="Clique aqui" onclick="msg()">
+
+    <script>
+        function msg() {
+            alert("Ola mundo");
+        }
+    </script>
+
+    <h2>fieldset</h2>
+    <form action="/recebe.php">
+
+        <fieldset>
+
+            <legend>Formulario: </legend>
+            <label for="1nome">Primeiro Nome: </label>
+            <input type="text" id="firstname" name="firstname" required>
+            <label for="2nome">Sobrenome Nome: </label>
+            <input type="text" id="lastname" name="lastname">
+            </br> <br>
+            <label>Data de aniversario: </label>
+            <input type="date" id="birthday" name="birthday" min="1900-01-01" max="2020-08-31"></br>
+            <label>Email: </label>
+            <input type="email" id="email" name="email" disabled>
+            </br>
+
+            <hr>
+            <label>Escolha o Estado brasileiro: </label>
+            <select name="estado" id="estado">
+                <option value="--------"></option>
+                <optgroup label="Nordeste">
+                    <option value="ba">Bahia</option>
+                    <option value="pi">Piauí</option>
+                </optgroup>
+                <optgroup label="Sudeste">
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="mg">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="pr">Paraná</option>
+                    <option value="sc">Santa Catarina</option>
+                </optgroup>
+            </select>
+            </br>
+
+            <label for="browser">Escoha o navegador: </label>
+            <input list="browseres" name="browser" id="browser">
+            <datalist id="browseres">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <br>
+
+            <label for="navegador">Navegador usado</label>
+            <input type="text" value="Chrome" disabled readonly>
+            </br>
+            <hr>
+
+            <label>Escolha a marca do carro: </label>
+            <select name="carros" id="carros">
+                <option value="--------"></option>
+                <option value="volvo">Volvo</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="gm">GM</option>
+                <option value="honda">Honda</option>
+            </select>
+            </br>
+
+            <label for="placa">Escreva a placa do seu veículo: </label>
+            <input type="text" name="placa" id="placa" pattern=[A-Z]{3}[0-9]{4}>
+            </br>
+            <hr>
+
+            <div class="1Div">
+                <h1>TESTE</h1>
+                <p>Aqui é uma div</p>
+            </div>
+            </br>
+
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+
+    </form>
+
+    <section>
+        <h3>Lorem Ipsum </h3>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+        </p>
+    </section>
+
+    <figure>
+        <img src="download.jfif" alt="Whatsapp">
+        <figcaption>Logo do Whatsapp</figcaption>
+    </figure>
+
+    <aside>
+        <h4>Volvo</h4>
+        <p>Volvo é uma empresa sueca, fundada em 1926, pelo engenheiro Gustav Larson e o economista Assar Gabrielsson na
+            cidade de Gotemburgo.</p>
+    </aside>
+
+    <footer>
+        <p>Autor: Danilo Gabriel</p>
+        <p><a href="google.com.br">Email para contato</a></p>
+    </footer>
+</body>
+
+</html>

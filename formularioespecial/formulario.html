@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="recebe-formulario.php" method="POST">
+        <p>
+            <label>Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </p>
+        <p>
+            <label>Email: </label>
+            <input type="email" id="email" name="email" placeholder="Digite seu Email">
+        </p>
+        <p>
+            <label>Telefone: </label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Telefone">
+        </p>
+        <p>
+            <label>Site: </label>
+            <input type="text" id="site" name="site" placeholder="Site">
+        </p>
+        <p>
+            <label>Quantidade de filhos: </label>
+            <input type="date" id="nascimeto" name="nascimento" placeholder="dd/mm/aaaa">
+        </p>
+        <p>
+            <label>Temperatura hoje: </label>
+            <input type="number" id="temperatura" name="temperatura" placeholder="Graus">
+        </p>
+        <p>
+            <label>Hora local: </label>
+            <input type="time" id="hora" name="hora" placeholder="--:--">
+        </p>
+        <p>
+            <label>Senha </label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+        </p>
+
+        <strong>Qual da disciplina que voce mais gosta?</strong></br>
+
+        <input id="java_id" name="disciplina" type="radio" value="dev_web" name="Desenvolvimento_Web">Desenvolvimento
+        Web</br>
+        <input id="java_id" name="disciplina" type="radio" value="Lgc_cp" name="Logica_Computacional">Logica
+        Computacional</br>
+
+        <label for="cor_favorita">Cor favorita : </label>
+        <input id="cor_favorita" name="cor_favorita" type="color" value="#ff0000">
+
+        </br>
+
+        <textarea type="text" name="mensagem" rows="5" cols="50" placeholder="Mensagem"></textarea></br>
+
+        <label for="receber_email">Deixe a caixa marcada para receber nossos emails </label>
+        <input id="receber_email" name="receber_email" type="checkbox" value="receber_email" name="receber_email"></br>
+        <label for="email_parceiros">Deixe receber emails de parceiros?</label>
+        <input id="email_parceiros" name="email_parceiros" type="checkbox" value="email_parceiros"
+            name="email_parceiros"></br>
+
+        <input type="submit" id="btn1" value="Enviar">
+
+    </form>
+
+</body>
+
+</html>
