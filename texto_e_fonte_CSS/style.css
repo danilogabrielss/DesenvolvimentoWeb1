@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background-color: #daede2;
+    padding: 5%;
+}
+
+h1 {
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+    background-color: #ea2e49;
+    text-emphasis-color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 2% 30% 0px 5%;
+    margin: 1em 1em;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: "tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif;
+    color: white;
+    font-size: 8em;
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding: 20px 20px 0px 5%;
+    word-wrap: break-word;
+    font-weight: 900;
+}
+
+h3 {
+    text-shadow: 5px 5px 25px #fff;
+    font-family: 'Montserrat', sans-serif;
+    /*(instale a fonte do Google no <head>)*/
+    color: white;
+    font-size: 2.25em;
+    letter-spacing: 0.5px;
+    line-height: 1em;
+    margin: 20px 20px 0px 5%;
+    padding: 0.5em 0 0.25em 0;
+    font-weight: 200;
+}
+
+p {
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    text-align: justify;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    padding: 20px 20px 0px 5%;
+    margin: 0.5em 0;
+    font-weight: 400;
+}
+
+hr {
+    color: red;
+}
