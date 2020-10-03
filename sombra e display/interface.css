@@ -1,0 +1,55 @@
+/* CSS Document */
+
+.text {
+    position: relative;
+}
+
+.borda {
+    font-family: arial, verdana, sans-serif;
+    width: 960px;
+    border: 5px solid;
+    border-color: rgb(0, 165, 177);
+}
+
+#img {
+    width: 50%;
+    border: 1px solid;
+    border-color: black;
+}
+
+#logo {
+    width: 20%;
+}
+
+nav {
+    border: solid;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: solid transparent;
+    border-right: solid transparent;
+    padding: 5px solid transparent;
+    /*
+    padding-top: 1em solid transparent;*/
+}
+
+nav a {
+    padding: 10px;
+    /*
+    padding-top: 1em solid transparent;*/
+}
+
+body {
+    font-family: arial, verdana, sans-serif;
+    color: gray;
+}
+
+li {
+    display: inline;
+    padding: 7px 0px;
+    left: 0;
+}
+
+.img {
+    position: relative;
+    right: 0;
+}
