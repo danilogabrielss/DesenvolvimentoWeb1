@@ -1,0 +1,49 @@
+/* CSS Document */
+
+.principal {
+    background-image: url("imagens/fundo-pagina.gif");
+    border: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 750px;
+    height: 360px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 2px;
+}
+
+#conteudo {
+    width: 444px;
+    background-color: #fff;
+    float: left;
+    padding: 10px;
+}
+
+#menu {
+    width: 285px;
+    height: 300px;
+    background-color: #b2ac9f;
+    float: right;
+    background-image: url("fundo‐menu‐bottom.gif");
+    background-repeat: no-repeat;
+    font-size: 28px;
+}
+
+#titulo {
+    width: 260px;
+    background-color: #060;
+    font-size: 18px;
+    color: #fff;
+}
+
+p {
+    margin: 14px;
+}
+
+li {
+    font-size: 18px;
+    margin-top: 54px;
+    margin-bottom: 18px;
+    font-weight: bolder;
+    list-style-type: none;
+}
